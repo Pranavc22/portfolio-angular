@@ -39,6 +39,6 @@ The following can be incorporated into the project in the future:
 ## Technical - Learnings
 
 I have learnt a great deal through this project and the various projects we have made during our training. To sum up, I have learnt: 
--   Front-end Development using Angular: Using HTML, CSS and TypeScript, we have learnt creating different elements of a webpage.
--   Back-end Development using Angular: Using MongoDB, ExpressJS and NodeJS, we have learnt how to create databases, schemas and connect the front-end to the back-end. 
+-   **Front-end Development using Angular**: Using HTML, CSS and TypeScript, we have learnt creating different elements of a webpage.
+-   **Back-end Development using Angular**: Using MongoDB, ExpressJS and NodeJS, we have learnt how to create databases, schemas and connect the front-end to the back-end. 
 -   Authorisation and Authentication techniques using JSON Web Tokens, Local Storage and bcrypt.
