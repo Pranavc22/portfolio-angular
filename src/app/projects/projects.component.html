@@ -1,0 +1,16 @@
+<div class = "container">
+    <div class = "row">
+        <h2 class = "title">Projects</h2>
+        <button routerLink = "" class = "button">Home</button>
+    </div>
+    <div class = "info">
+        <section *ngFor="let project of projects">
+            <p class = "name">{{project.name}}</p>
+            <p class = "type">{{project.type}}</p>
+            <p class = "tech-stack">{{project.techStack}}</p>
+            <p class = "duration">{{project.duration}}</p>
+            <p class = "description">{{project.description}}</p>
+            <a *ngIf="project.link !== ''" href = "{{project.link}}">Amazing Link</a>
+        </section>
+    </div>
+</div>

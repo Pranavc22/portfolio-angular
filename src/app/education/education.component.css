@@ -1,0 +1,90 @@
+.container{
+    background-color: #04030f;
+    margin: 0px;
+
+}
+
+.row{
+    display: flex;
+    justify-content:space-between;
+}
+
+.title{
+    font-family: 'poppinsBold';
+    font-size: 54px;
+    color: #D8E8D8;
+    text-align: left;
+    padding: 10px;
+    margin: 0px 0px 0px 20px;
+}
+
+.button{
+    text-decoration: none;
+    margin: 10px 20px 0px 0px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #D8E8D8;
+    font-family: 'poppins';
+    font-size: 24px;
+    border: none;
+    transition-duration: 0.3s;
+    padding: 0px 40px 0px 40px;
+}
+
+.button:hover{
+    background-color: #D8E8D8;
+    color: #04030F;
+}
+
+.info{
+    margin: 20px;
+}
+
+section{
+  margin: 0px 0px 0px 30px;
+  display: grid;
+  gap: 0 1rem;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(3, 1fr);  
+}
+
+section p:nth-child(4){
+    grid-row: 1/4;
+    padding: 0px 40px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    border-right: 1px solid #D8E8D8;
+}
+
+.subject{
+    color: #2B59C3;
+    font-family: 'poppinsBold';
+    font-size: 24px;
+    margin: 30px 0px 0px 0px;
+    padding: 0px;
+}
+
+.institute{
+    color: #D8E8D8;
+    font-family: 'poppins';
+    font-size: 16px;
+    font-style: italic;
+    margin: 0px;
+    padding: 0px;
+}
+
+.duration{
+    color: #b8d5b8;
+    font-family: 'poppins';
+    font-size: 14px;
+    font-style: italic;
+    margin: 0px;
+    padding: 0px;
+}
+
+.score{
+    color: #D8E8D8;
+    font-family: 'poppins';
+    font-size: 24px;
+}

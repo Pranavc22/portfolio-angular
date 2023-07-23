@@ -1,0 +1,18 @@
+<div class = "container">
+    <div class = "row">
+        <h2 class = "title">Skills</h2>
+        <button routerLink = "" class = "button">Home</button>
+    </div>
+    <div class = "info">
+        <section *ngFor="let skill of skills">
+            <p class = "name">{{skill.name}}</p>
+            <p class = "level">{{skill.level}}</p>
+            <div class = "rating">
+                <div class = bar>
+                    <div [ngStyle]="{'width': skill.rating+'%'}"></div>
+                </div>
+                <div>{{skill.rating}}%</div>
+            </div>
+        </section>
+    </div>
+</div>

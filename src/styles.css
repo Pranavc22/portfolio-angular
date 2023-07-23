@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(src/assets/fonts/Poppins-Light.ttf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'poppinsBold';
+    src: url(src/assets/fonts/Poppins-Bold.ttf);
+    font-weight: normal;
+}
+
+body {
+    margin: 0px;
+    background-color: #04030F;
+}
+
+/* .container{
+    margin: 0 auto;
+    max-width: 1500px;
+    outline: 0px solid white;
+    background-color: #04030F;
+} */
+
+/* Light Theme colors -  */
+/* A50104 - Turkey Red*/
+/* FAB3A9 - Melon */
+
+/* Dark Theme colors - */
+/* #04030F */
+/* #b8d5b8 */
+/* #D8E8D8 */
+/* #2B59C3 */

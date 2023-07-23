@@ -1,0 +1,24 @@
+<div class = "container">
+    <div class = "row">
+        <h1 class = "title">About Me</h1>
+        <button routerLink = "" class = "button">Home</button>
+    </div>
+    <div class = "info">
+        <p class = "hello">Hello there...</p>
+        <p class = "infoBody">{{para1}}<br>{{para2}}</p>
+        <div style="display: flex; justify-content: center; margin: 40px 0px 40px 0px;">
+            <div class = table-container>
+                <p class = "table-caption">Personal Information</p>
+                <div class = "table-wrapper">
+                    <table>
+                        <tbody>
+                            <tr *ngFor="let row of personalData">
+                                <td *ngFor="let col of row">{{col}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>   
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,93 @@
+.container{
+    background-color: #04030f;
+    margin: 0px;
+
+}
+
+.row{
+    display: flex;
+    justify-content:space-between;
+}
+
+.title{
+    font-family: 'poppinsBold';
+    font-size: 54px;
+    color: #D8E8D8;
+    text-align: left;
+    padding: 10px;
+    margin: 0px 0px 0px 20px;
+}
+
+.button{
+    text-decoration: none;
+    margin: 10px 20px 0px 0px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #D8E8D8;
+    font-family: 'poppins';
+    font-size: 24px;
+    border: none;
+    transition-duration: 0.3s;
+    padding: 0px 40px 0px 40px;
+}
+
+.button:hover{
+    background-color: #D8E8D8;
+    color: #04030F;
+}
+
+.info{
+    margin: 30px auto 0px auto;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    row-gap: 50px;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+}
+
+section p:nth-child(1){
+    border-left: 3px solid #2b59c3;
+}
+
+section p:not(:nth-child(1)){
+    border-left: 3px solid #D8E8D8;
+}
+
+.organisation{
+    font-family: 'poppinsBold';
+    font-size: 24px;
+    color: #2b59c3;
+    margin: 0px;
+    padding: 10px;
+}
+
+.role{
+    font-family: 'poppins';
+    font-size: 16px;
+    color: #D8E8D8;
+    margin: 20px 0px 0px 0px;
+    padding: 10px 0px 0px 10px;
+}
+
+.description{
+    font-family: 'poppins';
+    font-size: 16px;
+    color: #D8E8D8;
+    margin: 0px;
+    padding: 10px 0px 10px 10px;
+}
+
+.time-period{
+    font-family: 'poppins';
+    font-size: 14px;
+    color: #b8d5b8;
+    font-style: italic;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 10px 10px;
+}
